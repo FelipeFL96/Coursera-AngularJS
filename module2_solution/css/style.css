@@ -1,0 +1,52 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px auto;
+    width: 60%;
+}
+
+h1 {
+    font-variant: small-caps;
+    color: chocolate;
+}
+
+h2 {
+    font-variant: small-caps;
+    color: chocolate;
+}
+
+#lists {
+    background-color: orange;
+    border: 5px solid chocolate;
+    border-radius: 10px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+}
+
+#tobuy ul, #bought ul {
+    background-color: #C8C8C8;
+    border: 5px solid gray;
+    border-radius: 10px;
+    list-style-type: none;
+    line-height: 30px;
+    min-height: 200px;
+    padding: 10px;
+}
+
+button {
+    background-color: orange;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color: orangered;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.alert {
+    color:crimson ;
+    font-variant: small-caps;
+    font-weight: bold;
+}
