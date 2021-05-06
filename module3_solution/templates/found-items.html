@@ -1,0 +1,8 @@
+<ul>
+    <li ng-repeat="i in found">
+        <h3>{{ i.name }} ({{ i.short_name }})</h3>
+        <p>{{ i.description }}</p>
+        <button ng-click="removeItem({index: $index})">Don't want this one!</button>
+    </li>
+    <span class="error" ng-if="searched && found.length == 0">Nothing found!</span>
+</ul>

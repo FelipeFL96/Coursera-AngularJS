@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Assignment 3</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    </head>
+    <body ng-app="NarrowItDownApp">
+        <div id="content" ng-controller="NarrowItDownController as narrow">
+            <h1>{{ narrow.title }}</h1>
+            <input id="search-box" type="text" ng-model="narrow.query"/>
+            <button id="search-button" ng-click="narrow.search()">Narrow It Down For Me!</button>
+            <found-items 
+                found="narrow.found" 
+                searched="narrow.searched"
+                remove-item="narrow.removeItem(index)">
+            </found-items>
+        </div>
+        <script src="js/angular.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+html {
+    font-family: 'Trebuchet MS';
+}
+
+#content {
+    border: 5px solid rgb(171, 177, 175);
+    border-radius: 5px;
+    background-color: rgb(90, 201, 164);
+    margin: 50px auto;
+    padding: 10px 50px;
+    width: 700px;
+}
+
+#search-box {
+    border: 2px solid rgb(173, 179, 178);
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+#search-button {
+    background-color: rgb(10, 128, 88);
+    border: 2px solid rgb(14, 189, 130);
+    border-radius: 4px;
+    color: rgb(15, 216, 149);
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    width: 180px;
+}
+
+h1 {
+    color: rgb(10, 128, 88);
+}
+
+h3 {
+    color: rgb(5, 97, 66);
+    margin: 0px;
+}
+
+ul {
+    border-bottom:3px solid rgb(5, 97, 66);
+    height: 550px;
+    margin: 15px 0px;
+    overflow: auto;
+    padding: 0;
+}
+
+li {
+    background-color: aquamarine;
+    border: 2px solid rgb(14, 189, 130);
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0px 5px 10px 0px;
+}
+
+li p {
+    padding: 0px 10px;
+}
+
+li button {
+    background-color: rgb(15, 216, 149);
+    border: 2px solid rgb(14, 189, 130);
+    border-radius: 4px;
+    color: rgb(10, 128, 88);
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.error {
+    color: rgba(209, 35, 35, 0.904);
+    font-size: 20px;
+    font-weight: bold;
+}
